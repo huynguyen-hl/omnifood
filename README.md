@@ -4,6 +4,9 @@ Welcome to the Omnifood landing page! This project provides a simple HTML and CS
 
 ![Omnifood](omnifood/omnifood-image.png)
 
+
+You can view the Omnifood landing page online at https://omnifood-huydev.netlify.app
+
 ## Features
 - Clean and modern design
 - Responsive layout for various screen sizes
