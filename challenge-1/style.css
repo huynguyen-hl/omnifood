@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  border: 5px solid black;
+  font-family: sans-serif;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+
+  /* CSS Grid */
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  padding: 25px 0;
+  grid-column: 1 / -1;
+}
+
+.more-info:link {
+  color: black;
+}
+
+.more-info:hover {
+  text-decoration: none;
+}
+
+.free-ship {
+  color: gray;
+  font-weight: 600;
+  /* margin-bottom: auto; */
+  /* float: right; */
+}
+
+.content-middle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+ul li {
+  list-style: square;
+  margin: 17px;
+}
+
+.btn {
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  clear: both;
+
+  grid-column: 1 / -1;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border-top: 5px solid black;
+}
+
+.price {
+  margin: 5px 0;
+  font-size: 30px;
+  float: left;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  padding: 7px 15px;
+  position: absolute;
+  top: -16px;
+  left: -38px;
+}
+
+.colors {
+  margin: 25px 0;
+  display: flex;
+  gap: 15px;
+}
+
+.color {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: lightgreen;
+}
+
+.color-brown {
+  background-color: brown;
+}
+
+.content-left {
+  flex: 0 0 250px;
+  /* margin-right: 40px; */
+  /* float: left; */
+}
+.content-middle {
+  flex: 0 0 240px;
+  /* margin-right: 40px; */
+  /* width: 240px; */
+  /* float: left; */
+}
+.content-right {
+  flex: 0 0 250px;
+  /* margin-top: 6px; */
+  /* width: 240px; */
+  /* float: left; */
+}
